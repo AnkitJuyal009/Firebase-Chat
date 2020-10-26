@@ -1,0 +1,130 @@
+.login {
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    background-color: #FDB797;
+}
+
+.login__leftHalf {
+    flex: 0.9;
+    background-color: #4D426D;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.leftHalf__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 190px;
+}
+
+.leftHalf__container > img {
+    width: 131px;
+}
+
+.leftHalf__container > h2 {
+    font-size: 2.2em;
+    margin: 20px;
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+
+
+.leftHalf__container > h5 {
+    font-size: medium;
+    font-weight: 300;
+    margin: 20px;
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+
+.leftHalf__container > h5 > span {
+    color: #FA9806;
+}
+
+.leftHalf__container > h5 > span:hover {
+    color: #FA9806;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login__rightHalf {
+    flex: 1;
+}
+
+.rightHalf__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+}
+
+.rightHalf__container > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 181px;
+}
+
+.rightHalf__container > h3 {
+    font-size: 2em;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+
+.rightHalf__container > button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 10px 60px;
+    margin: 15px;
+    border-radius: 20px;
+    outline: none;
+    text-decoration: none;
+    width: fit-content;
+    align-self: center;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.icon {
+    width: 20px;
+    margin: 0 20px 0 5px;
+
+    
+}
+.rightHalf__container > button:hover {
+    transform: scale(1.1);
+    color: white;
+}
+
+.button__google:hover {
+    background-color: #9e0000;
+    border: none;
+}
+
+.button__github:hover {
+    background-color: #443d3d;
+}
+
+
+
+.button__google {
+    border: 2px solid #d62323;
+    color: #d62323;
+}
+
+.button__github {
+    border: 2px solid #424242;
+    color: #424242;
+}
+
+@media screen and (max-width: 950px) {
+    .login__leftHalf {
+        display: none;
+    }
+}
